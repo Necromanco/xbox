@@ -1,0 +1,55 @@
+{
+    "name": "Repositorio de Uri",
+    "subtitle": "Emuladores 4 all",
+    "description": "Todos los emuladores de iOS en un solo lugar, bro!.",
+    "iconURL": "https://cdn-icons-png.flaticon.com/512/8898/8898986.png",
+    "headerURL": "https://www.adslzone.net/app/uploads-adslzone.net/2016/01/retroarch.jpg",
+    "website": "https://altstore.io",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+        "com.example.myapp",
+        "com.example.anotherapp"
+    ],
+    "apps": [
+        {
+            "name": "Citra 3DS",
+            "bundleIdentifier": "com.example.myapp",
+            "developerName": "Uri S.A.",
+            "subtitle": "Emulador para 3DS.",
+            "localizedDescription": "El mejor y único emulador de 3DS para iOS.",
+            "iconURL": "https://downloadr2.apkmirror.com/wp-content/uploads/2020/05/02/5ed00f1c7782f.png",
+            "tintColor": "#5CA399",
+            "screenshots": [
+                "https://example.com/myapp_portrait_screenshot1.png",
+                "https://example.com/myapp_portrait_screenshot2.png",
+                {
+                    "imageURL": "https://limonemulator.com/wp-content/uploads/2023/11/Limon-Emulator-Logo-2.png",
+                    "width": 2556,
+                    "height": 1179
+                }
+            ],
+            "versions": [
+                {
+                    "version": "1.0.8.5.1"
+",
+                    "date": "2022-05-01T09:00:00-08:00",
+                    "size": 20000000,
+                    "downloadURL": "https://github.com/emuPlace/Limon/releases/download/v1.0.8.5.1/Limon_v1.0.8.5.1.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                },
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+                    "NSCameraUsageDescription": "App uses camera to take photos.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
+                }
+            }
+        },
+    ]
+}
